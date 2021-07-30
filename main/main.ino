@@ -4,7 +4,7 @@
 
 #define TCA_ADDR 0x70
 #define MPRLS_ADDR 0x18
-#define NUM_MPRLS 3
+#define NUM_MPRLS 8
 
 // You dont *need* a reset and EOC pin for most uses, so we set to -1 and don't connect
 #define RESET_PIN  -1  // set to any GPIO pin # to hard-reset on begin()
